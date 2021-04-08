@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper{
+    background:#304353;
+    padding: 0.5rem;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    
+    
+}
+
+ h2{
+    
+    
+    color: #bcc3c7;
+    padding: 0.2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+ h4{
+    
+    color: #051725;
+    padding: 0.4rem;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 0rem;
+
+}
+form{
+    padding: 1rem;
+    border-radius: 3rem;
+    background: white;
+    box-shadow: 2px 2px 2px 2px inset white;
+    width: 100vw;
+    height: 600px;
+    
+}
+
+button,input,.name, .dob{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 4px;
+
+}
+
+label{
+    padding: 0.5rem;
+    font-weight: 50;
+    font-size: small;
+
+}
+select{
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+
+@media screen and (max-width:768px){
+    .dob{
+        
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: 4px;
+        display: center;
+        flex-direction: row;
+        position: relative;
+    
+    }
+
+}
